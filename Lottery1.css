@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.body {
+    background-image: linear-gradient(#4a3f79, #219997);
+    height: 100vh;
+}
+
+.mid {
+    margin-left: 21vw;
+    margin-top: 23vh;
+}
+
+.left,
+.right {
+    float: left;
+}
+
+.main {
+    width: 36vw;
+    height: 62vh;
+    max-height: 63vh;
+    background-image: radial-gradient(#283632, transparent);
+}
+
+.main p {
+    font-size: 2.9vw; /* Responsive font size */
+    margin-left: 4vw; /* Adjusted margin */
+    font-weight: 700;
+    color: beige;
+}
+
+.main input {
+    width: 12vw;
+    outline: none;
+    font-size: 1.8vw; /* Responsive font size */
+    height: 9vh;
+    margin-left: 11vw; /* Adjusted margin */
+}
+
+.box {
+    gap: 1.9vw; /* Responsive gap */
+    margin-top: 8.5vw; /* Adjusted margin */
+}
+
+.btn {
+    margin-left: 9.5vw; /* Adjusted margin */
+    margin-top: 3vh;
+}
+
+.btn button {
+    width: 8vw;
+    height: 7vh;
+}
+
+img {
+    margin: 3.2vw 0 0 -0.8vw; /* Adjusted margins and units */
+    height: 20vw;
+    width: 22vw;
+}
+
+/* Media Queries */
+@media screen and (max-width: 973px){
+    .main {
+        /* width: 80vw; */
+        /* width: 33vw; */
+        height: 50vh;
+    }
+    img{
+    margin: 8.2vw 0 0 -0.8vw; /* Adjusted margins and units */
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .mid {
+        margin-left: 27%;
+        margin-top:33%;
+    }
+
+    .main {
+        /* width: 80vw; */
+        width: 33vw;
+        height: 33vh;
+    }
+
+    .main p {
+        font-size: 3vw;
+        margin-left: 15%;
+    }
+
+    .main input {
+        width: 47%;
+        margin-left: 29%;
+        height: 5vh;
+    }
+
+    .box {
+        gap: 3vw;
+        margin-top: 5vw;
+    }
+
+    .btn {
+        margin: 0;
+        text-align: center;
+    }
+
+    .btn button {
+        height: 5vh;
+        width: 39%;
+        margin: 1vh auto;
+    }
+
+    img {
+        margin: 3vw 0 0 -1vw;
+        width: 17vw;
+        margin-top: 38%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 480px){
+    .mid{
+        display: inline-grid;
+    }
+    .main{
+        width: 57vw;
+        height: 23vh;
+        margin-left: -8%;
+    }
+    .main p {
+        font-size: 4vw;
+        margin-left: 15%;
+    }
+    .input{
+        width: 47%;
+        margin-left: 27%;
+        height: 5vh;
+    }
+    img{
+        width: 25vw;
+        margin-top: 29%;
+        margin-left: 16%;
+        height: auto;
+}
+    
+}

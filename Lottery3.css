@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.body {
+    background-image: linear-gradient(#4a3f79, #219997);
+    height: 100vh;
+    .mid {
+        margin-left: 21vw;
+        margin-top: 23vh;
+        .left{
+            .logo {
+                margin: 4.7vw 0 0 -0.8vw; 
+                /* height: 20vw; */
+                width: 22vw;
+                min-height: 20vw;
+                height: auto;
+            @media screen and (max-width: 973px){
+                    margin: 8.2vw 0 0 -0.8vw;         
+            }
+            @media screen and (max-width: 768px) {
+                margin: 3vw 0 0 -1vw;
+                width: 17vw;
+                margin-top: 38%;
+                height: auto;
+            }
+            @media screen and (max-width: 480px){
+                width: 25vw;
+                margin-top: 29%;
+                margin-left: 16%;
+                height: auto;
+             }
+          }
+        }
+        .left,
+        .right {
+        float: left;
+
+            .main {
+                width: 36vw;
+                height: 59vh;
+                max-height: 63vh;
+                background-image: radial-gradient(#283632, transparent);
+                .heading {
+                    font-size: 2.3vw; 
+                    margin-left: 4vw; 
+                    font-weight: 700;
+                    color: beige;
+                    @media screen and (max-width: 768px) {
+                        font-size: 3vw;
+                        margin-left: 15%;
+                    }
+                    @media screen and (max-width: 480px){
+                        font-size: 4vw;
+                        margin-left: 15%;
+                    }
+                }
+                .box {
+                    gap: 1.9vw; 
+                    margin-top: 8.5vw;
+                    .inputNumber {
+                        width: 12vw;
+                        outline: none;
+                        font-size: 1.8vw; 
+                        height: 9vh;
+                        margin-left: 11vw; 
+                        @media screen and (max-width: 768px) {
+                            width: 47%;
+                            margin-left: 29%;
+                            height: 5vh;
+                        }
+                        @media screen and (max-width: 480px){
+                            width: 47%;
+                            margin-left: 27%;
+                            height: 5vh;
+                        }    
+                    }
+                    .btn {
+                        margin-left: 9.5vw; 
+                        margin-top: 3vh;
+                        button {
+                            width: 8vw;
+                            height: 7vh;
+                             @media screen and (max-width: 768px) {
+                                height: 5vh;
+                                width: 39%;
+                                margin: 1vh auto;
+                             }
+                        }
+                     @media screen and (max-width: 768px) {
+                        margin: 0;
+                        text-align: center;
+                     }
+                    }
+                     @media screen and (max-width: 768px) {
+                        gap: 3vw;
+                        margin-top: 5vw;
+                         }
+                }
+                @media screen and (max-width: 1111px){
+                    height: 49vh;
+                }
+                @media screen and (max-width: 973px){
+                    height: 50vh;
+                }
+                @media screen and (max-width: 768px) {
+                    width: 33vw;
+                    height: 32vh;
+                }
+                @media screen and (max-width: 480px){
+                    width: 57vw;
+                    height: 23vh;
+                    margin-left: -8%;
+                }
+
+            }
+        }
+        
+            @media screen and (max-width: 768px) {
+                margin-left: 27%;
+                margin-top:33%;
+                }
+            @media screen and (max-width: 480px){
+                display: inline-grid;
+            }
+    }
+    
+}
+
+
+
+
+

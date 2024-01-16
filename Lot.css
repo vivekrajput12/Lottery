@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+
+}
+
+.mid{
+    /* position: relative; */
+    width: 50vw;
+    height: 50vw;
+    background-color: bisque;
+    .left{
+        /* position: absolute;
+        float: left; */
+    }
+    .right{
+        /* position: absolute;
+        float: right; */
+    }
+}
